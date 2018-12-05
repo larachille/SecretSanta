@@ -1,0 +1,18 @@
+[
+    {
+        "question" : "Why is the sky blue?",
+        "A": "Just deal with it",
+        "B": "It's not",
+        "C": "Not important",
+        "D": "It's mirroring the atmosphere",
+        "correct": "A"
+    },
+    {
+        "question": "Why are bananas yellow?",
+        "A": "Just deal with it",
+        "B": "It's not",
+        "C": "To attract animals",
+        "D": "Not important",
+        "correct": "C"
+    }
+]

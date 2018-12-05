@@ -1,0 +1,23 @@
+<p>This is question <span id="nmbr"></span></p>
+
+<h2 id="question"></h2>
+<p></p>
+<table id="answers">
+  <thead>
+  </thead>
+  <tbody>
+    <!-- existing data could optionally be included here -->
+  </tbody>
+</table>
+
+<template id="answer">
+  <tr>
+    <td class="letter"></td>
+    <td class="text"></td>
+  </tr>
+</template>
+
+<script type="text/javascript">
+        var a = window.location.toString();
+        document.getElementById("nmbr").innerHTML = a.substring(a.indexOf("=")+1);
+</script>
